@@ -7,7 +7,7 @@ class Config(object):
     API_ID = 644598176 # integer value, dont use ""
     API_HASH = "c5850a7b1efe26f5835a1c219e65ed54"
     TOKEN = "6343038860:AAHrtlB4O0ZS6A3qKtMD2KcjT1APf0RAUYA"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 2145093972 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = 644598176 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
     SUPPORT_CHAT = "kawaiianimechat"  # Your own group for support, do not add the @
     START_IMG = "https://raw.githubusercontent.com/Ayushdeveloper001/KawaiiMedia/main/IMG_20231207_013828_481.png"
