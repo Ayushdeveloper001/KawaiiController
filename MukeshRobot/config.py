@@ -6,25 +6,24 @@ class Config(object):
 
     API_ID = 28397760 # integer value, dont use ""
     API_HASH = "c5850a7b1efe26f5835a1c219e65ed54"
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = "6343038860:AAHrtlB4O0ZS6A3qKtMD2KcjT1APf0RAUYA"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 2145093972 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
-    SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
-    START_IMG = ""
-    EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
-    MONGO_DB_URI= ""
+    SUPPORT_CHAT = "kawaiianimechat"  # Your own group for support, do not add the @
+    START_IMG = "https://raw.githubusercontent.com/Ayushdeveloper001/KawaiiMedia/main/IMG_20231207_013828_481.png"
+    EVENT_LOGS = ( -1002035959843 )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    MONGO_DB_URI= "mongodb+srv://BlackHatDev:BlackHatDev@blackhatdev.zk92igo.mongodb.net"
     # RECOMMENDED
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://znhtmvbr:1Nwa6oa9bn-Lh7wWwg1zsmV3-nIfvl0h@berry.db.elephantsql.com/znhtmvbr"  #A sql database url from elephantsql.com
     CASH_API_KEY = (
-        ""  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "VXRGGYORNRVWG9HG"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = ""
+    TIME_API_KEY = "QO71WZHGIT4V"
     # Get your API key from https://timezonedb.com/api
-
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
     DRAGONS = []  # User id of sudo users
-    DEV_USERS = []  # User id of dev users
+    DEV_USERS = []  
     DEMONS = []  # User id of support users
     TIGERS = []  # User id of tiger users
     WOLVES = []  # User id of whitelist users
